@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+  <header class="p-3 bg-dark text-white header-sec">
+    <div class="container">
+      <div class="wlcmUser"></div>
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-between">
+        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img src="assets/images/logo.png" height="100" alt="">
+        </a>
+
+        <ul class="nav col-12 col-lg-6 justify-content-end ">
+          <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">About Store</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">New Arrivals</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Customer Reviews</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+        </form>
+        <div class="basket">
+          <button class="cartBtn">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="basketQty">0</span>
+          </button>
+        </div>
+
+        <div class="text-end">
+          <div class="loginUserBox"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="container-fluid title-sec">
+  <div class="container">
+    <h2>Login</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="formBox">
+    <div>
+  <h2>Enter your login details</h2>
+  <p class="mb-3">Please fill the following form with correct details</p>
+    <form id="loginForm">
+        <input type="email" placeholder="Email address" id="emailField" class="form-control mb-3">
+        <input type="password" placeholder="Password" id="passwordField" class="form-control mb-3">
+        <button type="submit" class="btn btn-warning">Login</button>
+    </form>
+    <div class="err"></div>
+  </div>
+    <div>
+      <img src="assets/images/login-img.jpg" class="img-fluid" alt="">
+       </div>
+  </div>
+</div>
+
+<div class="container-fluid footer-sec">
+    <p>© 2023 D-Store. All Rights Reserved <small>Design & Developed By Danish Shaikh</small></p>
+  </div>
+
+  <script src="assets/js/login.js"></script>
+  <script src="assets/js/loginCheck.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    let cartBtn = document.querySelector(".cartBtn");
+  cartBtn.addEventListener('click', () => {
+    window.location = 'cart.html';
+  });
+  </script>
+</body>
+</html>

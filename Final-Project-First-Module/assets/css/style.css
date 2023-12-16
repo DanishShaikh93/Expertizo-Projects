@@ -1,0 +1,211 @@
+h5.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.title-sec {
+    background: #242424;
+    text-align: center;
+    color: #fff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.title-sec h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.header-sec {
+    background: #030303 !important;
+}
+
+.carousel-caption {
+    top: 20%;
+    right: unset;
+    text-align: left;
+    width: 30%;
+}
+
+
+.carousel-caption h2 {
+    font-size: 100px;
+    font-weight: 800;
+    margin-top: -20px;
+}
+
+.carousel-caption .btn {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-sec {
+    background: #030303;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer-sec p {
+    margin-bottom: 0;
+}
+
+.footer-sec p small {
+    color: #ffc720;
+    display: block;
+    font-style: italic;
+}
+
+
+
+.card img {
+    height: 241px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+p.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .price {
+    color: red;
+    font-size: 20px;
+}
+
+.cartPro-box {
+    position: relative;
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: #efefef 2px solid;
+}
+
+
+.cartPro-box img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 14px;
+}
+
+
+div#total-price-sec {
+    text-align: right;
+    font-weight: 600;
+}
+
+div#total-price-sec span{
+    color:red;
+}
+
+.cartProductsSec {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.cartProductsSec::-webkit-scrollbar {
+    width: 5px;
+  }
+   
+  .cartProductsSec::-webkit-scrollbar-track {
+ 
+  }
+   
+  .cartProductsSec::-webkit-scrollbar-thumb {
+    background: #eee;
+    width: 5px;
+    border-radius: 45px;
+}
+
+.rm-btn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.cartPro-box h6 {
+    width: 66%;
+}
+
+.formBox {
+    margin: 60px auto;
+    border: #dfdfdf 1px solid;
+    padding: 40px;
+    box-shadow: 0 0 14px 5px #dfdfdf;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formBox div {
+    width: 48%;
+}
+
+
+.table-responsive td{
+    vertical-align: middle;
+}
+
+button.qtyBtn {
+    width: 33px;
+    height: 33px;
+    font-size: 25px;
+    line-height: 24px;
+    vertical-align: middle;
+    font-weight: 600;
+    box-shadow: 0 0 4px 1px #cdcdcd;
+    border: none;
+}
+
+span#qty {
+    margin: 0 10px;
+}
+
+.bdInfo h5 {
+    font-weight: 400;
+}
+
+.bdInfo h5 strong{
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.err {
+    color: red;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.wlcmUser {
+    text-align: right;
+    width: 30%;
+    margin-left: auto;
+}
+
+.wlcmUser span {
+    color: #ffc107;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 18px;
+    border-bottom: #787878 2px solid;
+}
+
+button.cartBtn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+}
